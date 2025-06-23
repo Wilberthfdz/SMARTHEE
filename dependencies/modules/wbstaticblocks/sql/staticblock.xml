@@ -1,0 +1,376 @@
+<wb_static_blocks>
+<!-- static block configuration -->
+    <block>
+        <id_wbstaticblock>1</id_wbstaticblock>
+        <identify>wb_Top_left</identify>
+        <hook_position>displayNav1</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <wborder>0</wborder>
+        <insert_module>0</insert_module>
+        <active>0</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_wbstaticblock>2</id_wbstaticblock>
+        <identify>wb_Top_Call</identify>
+        <hook_position>displayTop</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <wborder>0</wborder>
+        <insert_module>0</insert_module>
+        <active>0</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_wbstaticblock>3</id_wbstaticblock>
+        <identify>wb_Menu</identify>
+        <hook_position>displayNavFullWidth</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <wborder>0</wborder>
+        <insert_module>0</insert_module>
+        <active>0</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_wbstaticblock>4</id_wbstaticblock>
+        <identify>wb_Services</identify>
+        <hook_position>displayHome</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <wborder>0</wborder>
+        <insert_module>0</insert_module>
+        <active>0</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_wbstaticblock>5</id_wbstaticblock>
+        <identify>wb_Testimonial</identify>
+        <hook_position>displayLeftColumn</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <wborder>0</wborder>
+        <insert_module>0</insert_module>
+        <active>0</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_wbstaticblock>6</id_wbstaticblock>
+        <identify>wb_Payment</identify>
+        <hook_position>displayFooterDown</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <wborder>0</wborder>
+        <insert_module>0</insert_module>
+        <active>0</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_wbstaticblock>7</id_wbstaticblock>
+        <identify>foot_tag</identify>
+        <hook_position>displayFooterBefore</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <wborder>0</wborder>
+        <insert_module>0</insert_module>
+        <active>0</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_wbstaticblock>8</id_wbstaticblock>
+        <identify>wb_Special</identify>
+        <hook_position>displayTopColumn</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <wborder>0</wborder>
+        <insert_module>0</insert_module>
+        <active>0</active>
+        <showhook>1</showhook>
+    </block>
+    <block>
+        <id_wbstaticblock>9</id_wbstaticblock>
+        <identify>wb_Services_Testimonialp</identify>
+        <hook_position>displayLeftColumnProduct</hook_position>
+        <name_module></name_module>
+        <hook_module></hook_module>
+        <wborder>0</wborder>
+        <insert_module>0</insert_module>
+        <active>0</active>
+        <showhook>1</showhook>
+    </block>
+<!-- block lang configuration -->
+    <block_lang>
+        <id_wbstaticblock>1</id_wbstaticblock>
+        <id_lang>1</id_lang>
+        <title>Wb Top Left</title>
+        <description>
+             <![CDATA[<p>Get 30% Off On Selected Items</p>]]>
+        </description>
+    </block_lang>
+    <block_lang>
+        <id_wbstaticblock>2</id_wbstaticblock>
+        <id_lang>1</id_lang>
+        <title>Wb Top Call</title>
+        <description>
+             <![CDATA[<div class="nav-link hcall hidden-lg-down float-xs-left"><svg width="38px" height="38px"> <use xlink:href="#callus"></use></svg>
+<div class="hdis text-xs-left hidden-md-down nav-link"><span class="userdess hidden-md-down">+911231567894</span><span class="hidden-md-down">Customer Support</span></div>
+</div>]]>
+        </description>
+    </block_lang>
+    <block_lang>
+        <id_wbstaticblock>3</id_wbstaticblock>
+        <id_lang>1</id_lang>
+        <title>Wb Menu</title>
+        <description>
+             <![CDATA[<div class="col-lg-10 col-md-9 col-sm-8 statmenu-width">
+<ul class="statmenu hidden-sm-down">
+<li><a href="contact-us">contact us</a></li>
+<li><a href="new-products">latest</a></li>
+<li><a href="sitemap">sitemap</a></li>
+<li><a href="prices-drop">special</a></li>
+<li><a href="best-sales">bestseller</a></li>
+</ul>
+<div class="nav-link csvg hidden-md-down float-xs-right"><svg width="22px" height="22px" class="nav-link"> <use xlink:href="#hoffer"></use></svg> <a href="prices-drop">special offer</a></div>
+</div>]]>
+        </description>
+    </block_lang>
+    <block_lang>
+        <id_wbstaticblock>4</id_wbstaticblock>
+        <id_lang>1</id_lang>
+        <title>Wb Services</title>
+        <description>
+             <![CDATA[<div class="deliveryinfo">
+<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-3">
+<ul class="list-unstyled">
+<li><span class="secure"><svg width="32px" height="32px"><use xlink:href="#pay"></use></svg></span></li>
+<li>
+<h4>100% Secure Payment</h4>
+</li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<ul class="list-unstyled">
+<li><span class="support"><svg width="32px" height="32px"><use xlink:href="#support"></use></svg></span></li>
+<li>
+<h4>money Back Guarantee</h4>
+</li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<ul class="list-unstyled">
+<li><span class="gift"><svg width="32px" height="32px"><use xlink:href="#gift"></use></svg></span></li>
+<li>
+<h4>30 days return</h4>
+</li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<ul class="list-unstyled">
+<li><span class="shipping"><svg width="42px" height="42px"><use xlink:href="#ship"></use></svg></span></li>
+<li>
+<h4>Worldwide Shipping</h4>
+</li>
+</ul>
+</div>
+</div>
+</div>]]>
+        </description>
+    </block_lang>
+    <block_lang>
+        <id_wbstaticblock>5</id_wbstaticblock>
+        <id_lang>1</id_lang>
+        <title>Wb Testimonials</title>
+        <description>
+             <![CDATA[<div class="test-bg leftpb next-prevb left-product">
+<div class="text-xs-center next-prevb row marginrow">
+<div id="testi" class="owl-carousel owl-theme">
+<div class="item col-xs-12 propadding">
+<div class="content_test">
+<div class="img-responsive center-block testi1"></div>
+<h3>Jesica Wilson</h3>
+<span class="first-t1">developer</span> <svg width="30px" height="30px"><use xlink:href="#quote"></use></svg>
+<div class="text-p">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+</div>
+</div>
+</div>
+<div class="item col-xs-12 propadding">
+<div class="content_test">
+<div class="img-responsive center-block testi2"></div>
+<h3>Jesica Wilson</h3>
+<span class="first-t1">developer</span> <svg width="30px" height="30px"><use xlink:href="#quote"></use></svg>
+<div class="text-p">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+</div>
+</div>
+</div>
+<div class="item col-xs-12 propadding">
+<div class="content_test">
+<div class="img-responsive center-block testi3"></div>
+<h3>Jesica Wilson</h3>
+<span class="first-t1">developer</span> <svg width="30px" height="30px"><use xlink:href="#quote"></use></svg>
+<div class="text-p">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]>
+        </description>
+    </block_lang>
+        <block_lang>
+        <id_wbstaticblock>6</id_wbstaticblock>
+        <id_lang>1</id_lang>
+        <title>Wb Foot Payment</title>
+        <description>
+             <![CDATA[<ul class="list-inline list-unstyled foot-payment">
+<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
+<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+</ul>]]>
+        </description>
+    </block_lang>
+    <block_lang>
+        <id_wbstaticblock>7</id_wbstaticblock>
+        <id_lang>1</id_lang>
+        <title>Foot Tag</title>
+        <description>
+             <![CDATA[<div>
+<ul class="header-link">
+<li class="d-inline-block"><a href="#">sofa</a></li>
+<li class="d-inline-block"><a href="#">chair</a></li>
+<li class="d-inline-block"><a href="#">dining table</a></li>
+<li class="d-inline-block"><a href="#">desk</a></li>
+<li class="d-inline-block"><a href="#">table</a></li>
+<li class="d-inline-block"><a href="#">livingroom</a></li>
+<li class="d-inline-block"><a href="#">bathroom</a></li>
+<li class="d-inline-block"><a href="#">badroom</a></li>
+<li class="d-inline-block"><a href="#">stool</a></li>
+<li class="d-inline-block"><a href="#">table lamp</a></li>
+<li class="d-inline-block"><a href="#">night stand</a></li>
+<li class="d-inline-block"><a href="#">pillow</a></li>
+<li class="d-inline-block"><a href="#">bar table</a></li>
+<li class="d-inline-block"><a href="#">tv</a></li>
+<li class="d-inline-block"><a href="#">radio</a></li>
+<li class="d-inline-block"><a href="#">clock</a></li>
+<li class="d-inline-block"><a href="#">computer desk</a></li>
+<li class="d-inline-block"><a href="#">chair </a></li>
+<li class="d-inline-block"><a href="#">stool</a></li>
+<li class="d-inline-block"><a href="#">bed</a></li>
+<li class="d-inline-block"><a href="#">stool</a></li>
+<li class="d-inline-block"><a href="#">table lamp</a></li>
+<li class="d-inline-block"><a href="#">night stand</a></li>
+<li class="d-inline-block"><a href="#">pillow</a></li>
+<li class="d-inline-block"><a href="#">bar table</a></li>
+<li class="d-inline-block"><a href="#">stool</a></li>
+<li class="d-inline-block"><a href="#">table lamp</a></li>
+<li class="d-inline-block"><a href="#">night stand</a></li>
+<li class="d-inline-block"><a href="#">pillow</a></li>
+<li class="d-inline-block"><a href="#">bar table</a></li>
+</ul>
+</div>]]>
+        </description>
+    </block_lang>
+    <block_lang>
+        <id_wbstaticblock>8</id_wbstaticblock>
+        <id_lang>1</id_lang>
+        <title>Wb Special</title>
+        <description>
+             <![CDATA[<div class="special-gift col-md-4 col-sm-4 col-lg-4 col-xs-12 hidden-md-down">
+<div class="foot-topb">
+<ul>
+<li class="newssvg d-inline-block"><svg width="70px" height="70px"><use xlink:href="#fgift"></use></svg></li>
+<li class="d-inline-block"><span class="c-info hidden-sm-down"><span class="c-info hidden-sm-down">Special Gift</span></span><hr />
+<p>Does the idea Lorem customised dolor lovely pillow give dolor the comfort You can get it Who knows Thanks your gift...</p>
+</li>
+</ul>
+</div>
+</div>]]>
+        </description>
+    </block_lang>
+    <block_lang>
+        <id_wbstaticblock>9</id_wbstaticblock>
+        <id_lang>1</id_lang>
+        <title>Wb Testimonialp</title>
+        <description>
+             <![CDATA[<div class="test-bg leftpb next-prevb left-product">
+<div class="text-xs-center next-prevb row marginrow">
+<div id="testi" class="owl-carousel owl-theme">
+<div class="item col-xs-12 propadding">
+<div class="content_test">
+<div class="img-responsive center-block testi1"></div>
+<h3>Jesica Wilson</h3>
+<span class="first-t1">developer</span> <svg width="30px" height="30px"><use xlink:href="#quote"></use></svg>
+<div class="text-p">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+</div>
+</div>
+</div>
+<div class="item col-xs-12 propadding">
+<div class="content_test">
+<div class="img-responsive center-block testi2"></div>
+<h3>Jesica Wilson</h3>
+<span class="first-t1">developer</span> <svg width="30px" height="30px"><use xlink:href="#quote"></use></svg>
+<div class="text-p">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+</div>
+</div>
+</div>
+<div class="item col-xs-12 propadding">
+<div class="content_test">
+<div class="img-responsive center-block testi3"></div>
+<h3>Jesica Wilson</h3>
+<span class="first-t1">developer</span> <svg width="30px" height="30px"><use xlink:href="#quote"></use></svg>
+<div class="text-p">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]>
+        </description>
+    </block_lang>
+
+<!-- block shop configuration -->
+    <block_shop>
+        <id_wbstaticblock>1</id_wbstaticblock>
+        <id_shop>1</id_shop>
+    </block_shop>
+    <block_shop>
+        <id_wbstaticblock>2</id_wbstaticblock>
+        <id_shop>1</id_shop>
+    </block_shop>
+    <block_shop>
+        <id_wbstaticblock>3</id_wbstaticblock>
+        <id_shop>1</id_shop>
+    </block_shop>
+    <block_shop>
+        <id_wbstaticblock>4</id_wbstaticblock>
+        <id_shop>1</id_shop>
+    </block_shop>
+    <block_shop>
+        <id_wbstaticblock>5</id_wbstaticblock>
+        <id_shop>1</id_shop>
+    </block_shop>
+    <block_shop>
+        <id_wbstaticblock>6</id_wbstaticblock>
+        <id_shop>1</id_shop>
+    </block_shop>
+    <block_shop>
+        <id_wbstaticblock>7</id_wbstaticblock>
+        <id_shop>1</id_shop>
+    </block_shop>
+    <block_shop>
+        <id_wbstaticblock>8</id_wbstaticblock>
+        <id_shop>1</id_shop>
+    </block_shop>
+    <block_shop>
+        <id_wbstaticblock>9</id_wbstaticblock>
+        <id_shop>1</id_shop>
+    </block_shop>
+</wb_static_blocks>

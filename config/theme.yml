@@ -1,0 +1,215 @@
+name: Smartshop
+display_name: Smartshop
+version: 2.0.0
+theme_key: 037a3c2a57ceef07fde7e2746e238703
+author:
+  name: "Webibazaar Templates"
+  email: "info@webibazaar.com"
+  url: "https://www.prestashop.com"
+
+meta:
+  compatibility:
+      from: 1.7.0.0
+      to: ~
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: No side columns, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three Columns
+      description: One large central column and 2 side columns.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Two columns with a small right column
+
+assets:
+  # If you're using this theme as child and you want to load
+  # the parent theme assets, uncomment this line.
+#  use_parent_assets: true
+
+  # The following lines are showing how to load assets in your page
+  # Uncomment and change value to start loading css or js files
+#  css:
+#    all:
+#      - id: custom-lib-style
+#        path: assets/css/custom-lib.css
+#    product:
+#      - id: product-style
+#        path: assets/css/product.css
+#        media: all
+#        priority: 200
+#  js:
+#    cart:
+#      - id: cat-extra-lib
+#        path: assets/js/cart-lib.js
+
+
+global_settings:
+  configuration:
+    PS_IMAGE_QUALITY: png
+  modules:
+   to_enable:
+     - ps_linklist
+     - ps_featuredproducts
+     - ps_newproducts
+     - ps_bestsellers
+     - ps_specials
+     - ps_emailsubscription
+     - ps_socialfollow
+     - ps_categoryproducts
+     - blockwishlist
+     - productcomments
+     - ps_viewedproduct
+     - wbblocksearch
+     - wbblog
+     - wbcategoryfeaturedproducts
+     - wbcompare
+     - wbimageslider
+     - wbimgbanner
+     - wbimglatest
+     - wbimgleft
+     - wbimgoffer
+     - wbleftfeaturedproducts
+     - wblogoslider
+     - wbmegamenu
+     - wbpopupproducts
+     - wbstaticblocks
+     - wbthemeconfigurator
+     - wbthemecustomizer
+   to_disable:
+     - ps_banner
+     - ps_customtext
+     - ps_imageslider
+     - ps_contactinfo
+  hooks:
+    modules_to_hook:
+      displayNav1:
+        - wbstaticblocks
+      displayNav2:
+        - ps_customersignin
+        - ps_currencyselector
+        - ps_languageselector
+      displayWishNav2:
+        - blockwishlist
+      displayTop:
+        - wbstaticblocks
+        - wbblocksearch
+        - ps_shoppingcart
+      displayNavFullWidth:
+        - wbstaticblocks
+      displayHome:
+        - wbimageslider
+        - wbimgbanner
+        - wbimglatest
+        - wbstaticblocks
+        - ps_featuredproducts
+        - ps_bestsellers
+        - ps_newproducts
+        - wbimgoffer
+      displayLeftColumn:
+        - wbmegamenu
+        - ps_facetedsearch
+        - wbcategoryfeaturedproducts
+        - wbimgleft
+        - ps_specials
+        - wbstaticblocks
+        - wbleftfeaturedproducts
+      displayLeftColumnProduct:
+        - wbmegamenu
+        - ps_facetedsearch
+        - wbcategoryfeaturedproducts
+        - wbimgleft
+        - ps_specials
+        - wbstaticblocks
+        - wbleftfeaturedproducts
+      displayWrapperBottom:
+        - wblogoslider
+        - wbblog
+      displayTopColumn:
+        - ps_contactinfo
+        - ps_emailsubscription
+        - wbstaticblocks
+      displayFooterBefore:
+        - wbstaticblocks
+      displayFooter:
+        - ps_linklist
+        - ps_customeraccountlinks
+        - blockwishlist
+      displayFooterDown:
+        - wbstaticblocks
+      displayFooterAfter:
+        - ps_socialfollow
+      displayFooterProduct:
+        - ps_categoryproducts
+      displaySearch:
+        - ps_searchbar
+      displayProductAdditionalInfo:
+        - ps_sharebuttons
+      displayReassurance:
+        - blockreassurance
+      displayProductActions:
+        - blockwishlist
+      displayCustomerAccount:
+        - blockwishlist
+
+  image_types:
+    cart_default:
+      width: 205
+      height: 205
+      scope: [products]
+    small_default:
+      width: 91
+      height: 91
+      scope: [products, categories, manufacturers, suppliers]
+    medium_default:
+      width: 388
+      height: 388
+      scope: [products, manufacturers, suppliers]
+    home_default:
+      width: 285
+      height: 285
+      scope: [products]
+    large_default:
+      width: 800
+      height: 800
+      scope: [products, manufacturers, suppliers]
+    category_default:
+      width: 220
+      height: 210
+      scope: [categories]
+    stores_default:
+      width: 170
+      height: 115
+      scope: [stores]
+
+theme_settings:
+  default_layout: layout-left-column
+  layouts:
+    category: layout-left-column
+    best-sales: layout-left-column
+    new-products: layout-left-column
+    prices-drop: layout-left-column
+    contact: layout-left-column
+  dependencies:
+  modules:
+     - ps_viewedproduct
+     - wbblocksearch
+     - wbblog
+     - wbcategoryfeaturedproducts
+     - wbcompare
+     - wbimageslider
+     - wbimgbanner
+     - wbimglatest
+     - wbimgleft
+     - wbimgoffer
+     - wbleftfeaturedproducts
+     - wblogoslider
+     - wbmegamenu
+     - wbpopupproducts
+     - wbstaticblocks
+     - wbthemeconfigurator
+     - wbthemecustomizer
